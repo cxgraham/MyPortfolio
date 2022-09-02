@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/myportfolio.css') }}">
+    <title>Christian Graham's Portfolio</title>
+    <div class="navbar">
+        <h1>CG</h1>
+        <nav>
+            <a href="#about-me">About Me</a> |
+            <a href="#my-projects">Projects</a>
+        </nav>
+    </div>
+</head>
+<body>
+    <div id="landing-page">
+        <div class="main-info">
+            <h1>Christian Graham</h1>
+            <h2>Full Stack Web Developer</h2>
+        </div>
+    </div>
+    <div id="about-me">
+        <h1>About Me</h1>
+        <p>My name is Christian and I started my coding journey in early 2022. In August of 2022, I completed Coding Dojo's bootcamp where I focused on Python, HTML, CSS and Javascript. 
+            I learned how to build a web application from start to finish, front end to back end. I'm excited to show my developed skills and continue to develop new skills.</p>
+    </div>
+    <div id="technical-skills">
+        <h1>Technical Skills</h1>
+        <div class="skills">
+            <div class="html">
+                <img src="/static/images/black-html-icon.png" alt="html logo">
+                <p>HTML</p>
+            </div>
+            <div class="css">
+                <img src="/static/images/css-logo-black.png" alt="css logo">
+                <p>CSS</p>
+            </div>
+            <div class="javascript">
+                <img src="/static/images/black-javascript-icon.png" alt="javascript logo">
+                <p>JavaScript</p>
+            </div>
+            <div class="python">
+                <img src="/static/images/python-logo-black-and-white.png" alt="python logo">
+                <p>Python</p>
+            </div>
+            <div class="flask">
+                <img src="/static/images/flask-python-logo.png" alt="python flask logo">
+                <p>Python Flask</p>
+            </div>
+            <div class="git">
+                <img src="/static/images/Git-Icon-Black.png" alt="git logo">
+                <p>Git</p>
+            </div>
+            <div class="github">
+                <img src="/static/images/GitHub-logo.png" alt="github logo">
+                <p>GitHub</p>
+            </div>
+        </div>
+    </div>
+    <div id="my-projects">
+        <h1>My Projects</h1>
+        <div class="projects">
+            <div class="project-one">
+                <h2>Welcome to Kansas City Blog Post</h2>
+                <img src="/static/images/project-screenshot.png" alt="Welcome to Kansas City Project Screenshot">
+                <p>This was the first project that I created, without following a prompt, during the final month of my bootcamp. It is a python flask web application that uses login and registration features and validations.
+                    Visitors are able to view the top five restaurants, bars, and activities in Kansas City (in my opinion). Site visitors can also comment about their experiences.
+                </p>
+                <div>
+                    <a href="http://ec2-52-14-219-172.us-east-2.compute.amazonaws.com" target="_blank" class="button" >Live Site</a>
+                    <a href="https://github.com/cxgraham/Welcome-to-KC-Project.git" target="_blank" class="button">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

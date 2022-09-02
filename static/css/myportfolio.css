@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Optima", sans-serif;
+    overflow-x: hidden;
+}
+
+#landing-page{
+    background-image: url("/static/images/background-img.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.navbar{
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+}
+
+.navbar h1{
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 1px 1px #888888;
+}
+
+.navbar nav{
+    font-size: 125%;
+    color: black;
+}
+
+.navbar nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+.main-info{
+    margin: 0px auto;
+    padding: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-info h1, .main-info h2{
+    font-family: "Snell Roundhand", cursive;
+}
+
+.main-info h1{
+    font-size: 300%;
+    border-bottom: 1px solid black;
+}
+
+.main-info h2{
+    width: 400px;
+    padding-top: 10px;
+    font-size: 150%;
+}
+
+#about-me{
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2a3747;
+}
+
+#about-me p{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px 50px 20px 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px #24303f;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+#technical-skills {
+    background-color: #3d4b5a;
+}
+
+#technical-skills h1, #projects h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.skills{
+    margin: 20px 20px 50px 20px;
+    padding: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.skills img {
+    height: 100px;
+    width: 100px;
+}
+
+.html p, .css p, .javascript p, .python p, .flask p, .git p, .github p{
+    text-align: center;
+}
+
+#my-projects{
+    background-color: #555f6d;
+}
+
+#my-projects h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-one {
+    margin: 20px 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.project-one p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-one img{
+    min-width: 30%;
+    max-width: 60%;
+    margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.project-one a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px black;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
