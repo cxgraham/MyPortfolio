@@ -40,6 +40,7 @@
 .navbar nav a{
     text-decoration: none;
     color: inherit;
+    text-shadow:0 0 5px rgb(185, 181, 181), 0 0 10px rgb(131, 130, 128), 0 0 15px rgb(10, 9, 9);
 }
 
 .navbar nav a:hover {
@@ -105,15 +106,16 @@
     margin: 20px 20px 50px 20px;
     padding: 0px auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
 }
 
-.skills img {
-    height: 100px;
+.html img, .css img, .javascript img, .python img, .flask img, .git img, .github img{
     width: 100px;
+    height: 100px;
 }
 
 .html p, .css p, .javascript p, .python p, .flask p, .git p, .github p{
@@ -137,6 +139,10 @@
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.project-one h2{
+    text-align: center;
 }
 
 .project-one p{
