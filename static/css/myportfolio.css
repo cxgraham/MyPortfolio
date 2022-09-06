@@ -113,9 +113,10 @@
     overflow: hidden;
 }
 
-.html img, .css img, .javascript img, .python img, .flask img, .git img, .github img{
+.html img, .css img, .javascript img, .python img, .flask img, .sql img, .git img, .github img{
     width: 100px;
     height: 100px;
+    margin: 10px;
 }
 
 .html p, .css p, .javascript p, .python p, .flask p, .git p, .github p{
