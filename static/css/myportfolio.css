@@ -132,7 +132,12 @@
     margin-top: 20px;
 }
 
-.project-one {
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-one, .project-two {
     margin: 20px 50px;
     padding: 10px;
     display: flex;
@@ -142,11 +147,11 @@
     border-radius: 10px;
 }
 
-.project-one h2{
+.project-one h2, .project-two h2{
     text-align: center;
 }
 
-.project-one p{
+.project-one p, .project-two p{
     text-align: center;
     margin-bottom: 20px;
 }
@@ -160,7 +165,7 @@
 
 }
 
-.project-one a.button {
+.project-one a.button, .project-two a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
