@@ -113,13 +113,13 @@
     overflow: hidden;
 }
 
-.html img, .css img, .javascript img, .python img, .flask img, .sql img, .git img, .github img{
+.skill img{
     width: 100px;
     height: 100px;
     margin: 10px;
 }
 
-.html p, .css p, .javascript p, .python p, .flask p, .sql p, .git p, .github p{
+.skill p{
     text-align: center;
 }
 
@@ -138,7 +138,7 @@
     flex-wrap: wrap;
 }
 
-.project-one, .project-two {
+.project{
     margin: 20px 50px;
     padding: 10px;
     display: flex;
@@ -148,25 +148,16 @@
     border-radius: 10px;
 }
 
-.project-one h2, .project-two h2{
+.project h2{
     text-align: center;
 }
 
-.project-one p, .project-two p{
+.project p{
     text-align: center;
     margin-bottom: 20px;
 }
 
-.project-one img{
-    min-width: 30%;
-    max-width: 60%;
-    margin: 20px 0px;
-    border: 1px solid black;
-    border-radius: 10px;
-
-}
-
-.project-one a.button, .project-two a.button {
+.project a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
