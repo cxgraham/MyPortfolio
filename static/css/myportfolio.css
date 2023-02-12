@@ -136,6 +136,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .project{
@@ -146,6 +147,7 @@
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
+    flex: 1;
 }
 
 .project h2{
@@ -174,5 +176,11 @@
 (prefers-reduced-motion: no-preference) {
     html {
         scroll-behavior: smooth;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .projects{
+        flex-direction: column;
     }
 }
